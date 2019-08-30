@@ -1,0 +1,102 @@
+
+
+.navbar{
+    padding: 15px;
+}
+
+.logo{
+    width: 90px;  
+    margin: 10px;
+    color: magenta;
+}
+
+.navbar{
+    background-color: darkgrey;
+
+}
+.navbar__container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar__searchPanel{
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchPanel{
+    margin: 30px;
+
+}
+
+.navbar__li{
+    list-style: none;
+    cursor: default;
+    display: inline;
+    margin: 0 30px;
+
+}
+
+.navbar__currentAmount{
+    color: violet;
+    font-weight: 600;
+    font-size: 20px; 
+}
+
+.navbar__li:hover{
+    color: blueviolet;
+    font-size: 20px; 
+
+}
+
+.navbar__Btn{
+    background-color: lightblue;
+    color: red;
+    border: 1px solid black;
+    cursor: pointer;
+    padding:20px;
+    margin:20px;
+}
+
+
+
+.mainmenubtn {
+    background-color: lightblue;
+    color: red;
+    border: 1px solid black;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+
+.mainmenubtn:hover {
+    background-color: lightcoral;
+    }
+    
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: lightblue;
+    min-width: 200px;
+}
+.dropdown-child .checkbox {
+    color: black;
+    padding: 20px;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+.conteinerCB{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.noVisable{
+    display: none;
+}

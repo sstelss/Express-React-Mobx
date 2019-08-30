@@ -1,0 +1,23 @@
+.ListPages__li{
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+    cursor: default;
+}
+
+.ListPages__li:hover{
+    color: blueviolet;
+    font-size: 20px;
+}
+
+.currentNumber{
+    color: maroon;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.chooseList{
+    
+    display: flex;
+    justify-content: center;
+}

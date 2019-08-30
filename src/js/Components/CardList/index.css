@@ -1,0 +1,38 @@
+.card{
+    display: flex;
+     align-items: center;
+
+    background-color: antiquewhite;
+    border: 2px solid black;
+    margin: 15px;
+
+}
+
+.deksArea{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+
+img{
+    width:100%;
+    height: 100%;
+}
+
+.weight{
+    color: maroon; 
+    font-weight: 600;
+}
+
+.type{
+    font-weight: 1000;
+}
+
+.cardList__btn{
+        background-color: lightblue;
+        color: red;
+        border: none;
+        cursor: pointer;
+        padding:20px;
+        margin-top:20px;
+}
