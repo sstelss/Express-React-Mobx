@@ -10,9 +10,6 @@ Rexpack can be run locally on your machine, or pushed to Google App Engine Flexi
 
     npm install
 
-## Create a Development build
-
-    npm run buildDev
 
 ## Create a Production build
 
@@ -23,16 +20,4 @@ Rexpack can be run locally on your machine, or pushed to Google App Engine Flexi
     npm start
 
 Then navigate to `http://localhost:8080`
-
-## Deploy to Google App Engine Flex
-
-    npm run deploy
-
-## Run test
-
-    npm test
-
-## Generate coverage report
-
-    npm run coverage
 
