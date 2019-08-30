@@ -1,0 +1,13 @@
+.registration-form, .login-form{
+    width: 500px;
+	margin: auto;
+}
+
+.UserPanel__toogleType{
+    cursor: pointer;
+}
+
+.UserPanel__toogleType:hover{
+    color: blueviolet;
+    font-size: 20px; 
+}
